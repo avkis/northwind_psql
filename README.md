@@ -41,6 +41,10 @@ sudo chown -R 5050:5050 pgadmin
 ````bash
 docker-compose up -d
 ````
+Or, if you have the make utility installed, you can run
+```bash
+make up
+```
 
 #### 2. Run psql client:
 
@@ -84,6 +88,10 @@ Stop and remove the containers via:
 
 ```bash
 docker-compose down
+```
+Or, if you have the make utility installed, you can run
+```bash
+make down
 ```
 
 #### 5. Files & persistence
