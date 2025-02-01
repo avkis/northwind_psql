@@ -6,7 +6,6 @@
 A simple sql script that will populate a database with the famous northwind example, adapted for postgres.
 
 <img src=images/ER.png />
-<img src=images/ER_Diagram.png />
 
 ## Getting started:
 
@@ -77,6 +76,7 @@ psql -U postgres northwind -p 5432
 Access to PgAdmin at the url: http://localhost:5050
 
 Then, select database "northwind".
+Run sql script from /sql/northwind.sql
 
 #### 4. Stop docker-compose
 
